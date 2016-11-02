@@ -27,7 +27,7 @@ void cAsteroid::update(double deltaTime)
 	this->setSpriteRotAngle(this->getSpriteRotAngle() +(5.0f * deltaTime)); 
 	if (this->getSpriteRotAngle() > 360)
 	{
-		this->setSpriteRotAngle(this->getSpriteRotAngle() -360);
+		this->setSpriteRotAngle(this->getSpriteRotAngle() -270);
 	}
 
 	SDL_Rect currentSpritePos = this->getSpritePos();
